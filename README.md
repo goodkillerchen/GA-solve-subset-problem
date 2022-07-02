@@ -32,8 +32,8 @@ If we find that one of the new series is can be better-adapted in environment th
 Mutation is just change one of the bit of 01 series from 0 to 1 or form 1 to 0.
 
 # GA to subset-sum probelm:
-The set size = n.
-target value = m
+The <strong>set size = n.</strong> and
+<strong>target value = m</strong>
 We can use a 01 series which length (n) is equal to the size of set. It represents whether we seize the number at that position in the set.
 We generate 20 01 serieses as the primary genes. There you can generate the number you like as the number of primary genes.
 The fitniess function shows below:<br>
