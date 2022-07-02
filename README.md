@@ -36,5 +36,12 @@ The set size = n.
 target value = m
 We can use a 01 series which length (n) is equal to the size of set. It represents whether we seize the number at that position in the set.
 We generate 20 01 serieses as the primary genes. There you can generate the number you like as the number of primary genes.
-The fitniess function shows below:
+The fitniess function shows below:<br>
+<br>
 ![alt text](https://github.com/goodkillerchen/GA-solve-subset-problem/blob/main/fitness_fun.png)
+And then, we can calculate the probability of each seris:
+$$ P_s = f_i/\sum_{i=1}^n f_i$$
+We can claculate the expection of each series which can be represented:
+$$ e_i=P_s * n $$
+Assign a copy number to each chromosome string based on the integer part of the $e_i$ value. The copy number represents the number of this chromosome string appear in next generation. The next genration of the genes are generated.
+The process of the corss over and mutation is just the swap option to each chromosome string.
