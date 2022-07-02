@@ -38,7 +38,7 @@ We can use a 01 series which length (n) is equal to the size of set. It represen
 We generate 20 01 serieses as the primary genes. There you can generate the number you like as the number of primary genes.
 The fitniess function shows below:<br>
 <br>
-![alt text](https://github.com/goodkillerchen/GA-solve-subset-problem/blob/main/fitness_fun.png)
+![alt text](https://github.com/goodkillerchen/GA-solve-subset-problem/blob/main/fitness_fun.png)<br>
 And then, we can calculate the probability of each seris:
 $$ P_s = f_i/\sum_{i=1}^n f_i$$
 We can claculate the expection of each series which can be represented:
